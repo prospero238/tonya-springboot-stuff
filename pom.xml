@@ -22,7 +22,7 @@
 		<project.build.sourceEncoding>UTF-8</project.build.sourceEncoding>
 		<project.reporting.outputEncoding>UTF-8</project.reporting.outputEncoding>
 		<java.version>1.8</java.version>
-        <boot.jvmArgs/>
+		<boot.jvmArgs>-Dbanner.location=walk.txt</boot.jvmArgs>
 	</properties>
 
 	<dependencies>
@@ -71,7 +71,7 @@
             </properties>
         </profile>
          <profile>
-            <id>tut</id>
+            <id>kingtut</id>
             <properties>
                 <boot.jvmArgs>-Dbanner.location=kingtut.txt</boot.jvmArgs>
             </properties>
